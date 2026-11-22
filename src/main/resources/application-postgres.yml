@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/simulator}
+    username: ${DB_USER:simulator}
+    password: ${DB_PASSWORD}
